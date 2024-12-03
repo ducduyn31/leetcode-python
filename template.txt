@@ -1,0 +1,22 @@
+"""
+[__PROBLEM_ID__] __PROBLEM_TITLE__
+
+__PROBLEM_DESC__
+"""
+
+# Problem: __PROBLEM_LINK__
+# Discuss: __DISCUSS_LINK__
+
+import unittest
+__EXTRA_IMPORT__
+
+# Submission code starts here
+
+__PROBLEM_DEFAULT_CODE__
+
+# Submission code ends here
+
+class Test__PROBLEM_ID__Solution(unittest.TestCase):
+    def test_1(self):
+        pass
+
