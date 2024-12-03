@@ -1,6 +1,8 @@
 # Leetcode Python
 
-This is a repository for my Leetcode solutions in Python. I am using this as a way to learn Python and improve my problem-solving skills. I will be adding solutions as I solve them.
+This is a repository for my Leetcode solutions in Python. I am using this as a way to automate the boilerplate creation for any leetcode problem.
+
+This repository is inspired by [Leetcode-Rust](https://github.com/aylei/leetcode-rust/tree/master)
 
 # Pre-requisites
 
