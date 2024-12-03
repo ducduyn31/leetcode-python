@@ -21,7 +21,7 @@ poetry install
 1. Initialize the template submission file for a problem with ID {id}
 
 ```shell
-poetry run start
+python main.py
 
 # Output
 # Welcome to leetcode-python system.
@@ -29,7 +29,6 @@ poetry run start
 # Please enter a frontend problem id,
 # or "random" to generate a random one,
 # or "solve $i" to move problem to solution/,
-# or "all" to initialize all problems
 #
 # 123  # Enter the problem ID
 ```
@@ -39,13 +38,13 @@ You can also use `random` or `all` to generate random problems or initialize all
 2. Run the tests
 
 ```shell
-poetry run test
+python test.py
 ```
 
 To filter tests by problem ID, use the following command:
 
 ```shell
-poetry run test -- -k test_{id}
+python test.py --id 123
 ```
 
 3. Solve the problem
@@ -61,7 +60,6 @@ poetry run start
 # Please enter a frontend problem id,
 # or "random" to generate a random one,
 # or "solve $i" to move problem to solution/,
-# or "all" to initialize all problems
 #
 # solve 123  # Enter the problem ID
 ```
